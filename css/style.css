@@ -1,0 +1,281 @@
+
+html,
+          body,
+          #root {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+          }
+
+          @media print {
+            html,
+            body,
+            #root {
+                height: auto;
+            }
+          }
+
+          #root {
+            opacity: 0;
+          }
+
+          #close-screen {
+            height: 100%;
+            width: 100%;
+          }
+
+          #root-spinner {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 50;
+            color: transparent;
+            fill: currentColor;
+          }
+/* sc-component-id: _Text-sc-1t2ribu-0-div */
+
+.etqcRu {
+	margin: 0;
+	max-width: 100%;
+	font-weight: unset;
+	font-size: 12px;
+	line-height: 16px;
+	color: currentColor;
+	font-family: sans-serif;
+	opacity: 0.7;
+}
+
+.fDUYg {
+	margin: 0;
+	max-width: 100%;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: currentColor;
+	font-family: sans-serif;
+	display: none;
+}
+
+
+/* sc-component-id: Spacer-sc-11bdvt0-0 */
+
+.imoSDn {
+	margin-top: 24px;
+}
+
+
+/* sc-component-id: sc-keyframes-biZQmF */
+
+@-webkit-keyframes biZQmF {
+	0% {
+		opacity: .2;
+	}
+	20% {
+		opacity: 1;
+	}
+	75% {
+		opacity: .2;
+	}
+}
+
+@keyframes biZQmF {
+	0% {
+		opacity: .2;
+	}
+	20% {
+		opacity: 1;
+	}
+	75% {
+		opacity: .2;
+	}
+}
+
+
+/* sc-component-id: SpinnerSvg-jjs2a1-0 */
+
+.dtuFiT svg {
+	display: block;
+}
+
+.dtuFiT rect {
+	fill: currentColor;
+	opacity: .2;
+	-webkit-animation: 0.8s biZQmF infinite;
+	animation: 0.8s biZQmF infinite;
+}
+
+.dtuFiT rect:nth-child(0) {
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(1) {
+	-webkit-animation-delay: 0.05s;
+	animation-delay: 0.05s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(2) {
+	-webkit-animation-delay: 0.1s;
+	animation-delay: 0.1s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(3) {
+	-webkit-animation-delay: 0.15s;
+	animation-delay: 0.15s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(4) {
+	-webkit-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(5) {
+	-webkit-animation-delay: 0.25s;
+	animation-delay: 0.25s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(6) {
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(7) {
+	-webkit-animation-delay: 0.35s;
+	animation-delay: 0.35s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(8) {
+	-webkit-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(9) {
+	-webkit-animation-delay: 0.45s;
+	animation-delay: 0.45s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(10) {
+	-webkit-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(11) {
+	-webkit-animation-delay: 0.55s;
+	animation-delay: 0.55s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(12) {
+	-webkit-animation-delay: 0.6s;
+	animation-delay: 0.6s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(13) {
+	-webkit-animation-delay: 0.65s;
+	animation-delay: 0.65s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(14) {
+	-webkit-animation-delay: 0.7s;
+	animation-delay: 0.7s;
+}
+
+.dtuFiT rect,
+.dtuFiT rect:nth-child(15) {
+	-webkit-animation-delay: 0.75s;
+	animation-delay: 0.75s;
+}
+
+
+/* sc-component-id: LoaderLayout-sc-1eu50fy-0 */
+
+.eczmJS {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+
+/* sc-component-id: LoaderWrapper-sc-1eu50fy-1 */
+
+.iKvkDg {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+/* sc-component-id: SpinnerWrapper-sc-1eu50fy-2 */
+
+.ebrxGH {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.jnZAyv{
+	display: none;
+}
+.hQEMCG{
+	background: #e43f77 !important;
+}
+.ayhXL::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: calc(30% - 56px) !important;
+}
+.header{
+	position: fixed;
+	top: 30px;
+	left: 30px;
+	width: 100%;
+	height: 60px;
+	padding:10px;
+	z-index: 999999;
+}
+.header img{
+	max-width: 150px;
+	height: auto;
+}
